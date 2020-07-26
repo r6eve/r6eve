@@ -1,4 +1,6 @@
 ```clojure
+(require '[clojure.spec.alpha :as s])
+
 (s/def ::name string?)
 (s/def ::align #{:law :neutral :chaos})
 (s/def ::lvl pos-int?)
